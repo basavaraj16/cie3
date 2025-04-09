@@ -9,6 +9,7 @@ public class methodoverloading {
     }
     public void display(int a ,int b){
         System.out.println("Number: "+a+"and"+b);
+        System.out.println("master");
     }
     public static void main(String[] args) {
         methodoverloading m = new methodoverloading();
